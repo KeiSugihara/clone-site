@@ -1,6 +1,6 @@
 .top {
   height: 500px;
-  background-image: url(../../img/main-vsual-nontitle.png);
+  background-image: url(../img/main-vsual-nontitle.png);
   background-position: center;
   background-size: cover;
 
@@ -27,7 +27,7 @@
   }
 
   @include overTab {
-    background-image: url(../../img/main-vsual.png);
+    background-image: url(../img/main-vsual.png);
     background-position: center;
     background-size: cover;
     // 高さを指定しないと表示されない
