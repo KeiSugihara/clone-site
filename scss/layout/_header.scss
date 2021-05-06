@@ -25,13 +25,19 @@
   .nav-list {
     display: flex;
     justify-content: center;
+    padding-left: 0;
     .nav-item {
       a {
-        font-size: 18px;
+        font-size: 14px;
         display: block;
         text-align: center;
         padding-left: 30px;
         padding-right: 30px;
+      }
+      @include overTab {
+        a {
+          font-size: 20px;
+        }
       }
     }
   }
